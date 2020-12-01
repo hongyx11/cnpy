@@ -1,4 +1,4 @@
-# CNPY lib portability
+# cnpy with conda package
 
 cnpy is a great library developed by rogersce. [orignal repo](https://github.com/rogersce/cnpy).
 This Repo is forked from the original repo and I changed CMakeLists.txt in order to use it as a submodule of your build project.
