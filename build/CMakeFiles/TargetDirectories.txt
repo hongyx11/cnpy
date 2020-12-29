@@ -1,0 +1,8 @@
+/Users/hongy0a/work/cnpy/build/CMakeFiles/install/local.dir
+/Users/hongy0a/work/cnpy/build/CMakeFiles/list_install_components.dir
+/Users/hongy0a/work/cnpy/build/CMakeFiles/rebuild_cache.dir
+/Users/hongy0a/work/cnpy/build/CMakeFiles/edit_cache.dir
+/Users/hongy0a/work/cnpy/build/CMakeFiles/install/strip.dir
+/Users/hongy0a/work/cnpy/build/CMakeFiles/install.dir
+/Users/hongy0a/work/cnpy/build/CMakeFiles/example1.dir
+/Users/hongy0a/work/cnpy/build/CMakeFiles/cnpy.dir

@@ -1,0 +1,2 @@
+/Users/hongy0a/work/cnpy/build/install/lib/libcnpy.dylib
+/Users/hongy0a/work/cnpy/build/install/include/cnpy.h
