@@ -1,12 +1,12 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.15.0)
+project(cnpy C CXX)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-
-option(ENABLE_STATIC "Build static (.a) library" ON)
-
 find_package(ZLIB REQUIRED)
-
 include_directories(${ZLIB_INCLUDE_DIRS})
-
 add_library(cnpy SHARED "cnpy.cpp")
 target_link_libraries(cnpy ${ZLIB_LIBRARIES})
+install(TARGETS "cnpy" LIBRARY DESTINATION lib)
+install(FILES "cnpy.h" DESTINATION include)
 
-set(CNPYINC ${CMAKE_CURRENT_SOURCE_DIR} PARENT_SCOPE)
+add_executable(example1 example1.cpp)
+target_link_libraries(example1 cnpy)
