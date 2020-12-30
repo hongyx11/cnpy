@@ -2,6 +2,7 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.15.0)
 project(cnpy C CXX)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
+
 # Set the RPATH config
 # --------------------
 # use, i.e. don't skip the full RPATH for the build tree
